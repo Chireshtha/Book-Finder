@@ -72,7 +72,7 @@ const HomePage = () => {
 
               return (
                 <Col key={index} xs={12} sm={6} md={4} lg={3}>
-                  <Card className="h-100 shadow-sm border-0 text-center">
+                  <Card className="h-100 shadow-sm border-0 text-center book-card">
                     <div className="bg-light d-flex align-items-center justify-content-center" style={{ height: '250px' }}>
                       <Card.Img
                         variant="top"

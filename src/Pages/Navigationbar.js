@@ -23,7 +23,7 @@ const Navigationbar = () => {
         <Navbar.Collapse id='navbar-nav' className='navbar-collapse'>
           <Nav className='ms-auto fs-6 w-75 d-flex justify-content-end align-items-center'>
             <Nav.Link as={NavLink} to="/" className='nav-link custom-nav-link' onClick={handlemobileDropdownItemClick}>Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/favorite" className='nav-link custom-nav-link' onClick={handlemobileDropdownItemClick}>Favotite</Nav.Link>
+            <Nav.Link as={NavLink} to="/booklist" className='nav-link custom-nav-link' onClick={handlemobileDropdownItemClick}>Books</Nav.Link>
             <Nav.Link as={NavLink} to="/about" className='nav-link custom-nav-link' onClick={handlemobileDropdownItemClick}>About</Nav.Link>
           </Nav>
         </Navbar.Collapse>

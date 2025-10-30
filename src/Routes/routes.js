@@ -4,6 +4,7 @@ import ErrorPage from '../Pages/ErrorPage'
 import HomePage from '../Pages/HomePage'
 import FavoritePage from '../Pages/FavoritePage'
 import AboutPage from '../Pages/AboutPage'
+import BookList from '../Pages/BookList'
 
 
 
@@ -15,7 +16,7 @@ const routes = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             { path: '/', element: <HomePage /> },
-            { path: '/favorite', element: <FavoritePage /> },
+            { path: '/booklist', element: <BookList /> },
             { path: '/about' , element: <AboutPage /> }
         ]
     }

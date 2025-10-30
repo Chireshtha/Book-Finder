@@ -34,11 +34,13 @@
 .hero-title {
     position: absolute;
     margin-bottom: 100px;
+    animation: slideInDown 1s ease-in-out;
 }
 
 .hero-subtitle {
     position: absolute;
     margin-top: 50px;
+    animation: slideInDown 1s ease-in-out;
 }
 
 .card-title {
@@ -61,3 +63,20 @@
     background-color: black !important;
     color: #ffffff !important;
 }
+.book-card{
+    transition: transform 0.5s ease-out;
+}
+.book-card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+@keyframes slideInDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+ }
