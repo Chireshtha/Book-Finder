@@ -24,7 +24,7 @@ This project is built using **React.js** and is completely open-source.
 
 ## 🚀 Live Demo
 
-🔗 Hosted Link: [https://7ydj3g-3000.csb.app/](https://7ydj3g-3000.csb.app/)
+🔗 Hosted Link: [https://3gwwvw-3000.csb.app/](https://3gwwvw-3000.csb.app/)
 
 ---
 
