@@ -1,5 +1,3 @@
-<img width="1883" height="1038" alt="image" src="https://github.com/user-attachments/assets/685b33cc-36ad-4f94-90b0-d526aadb9261" />
-
 # 📚 Open Source Book Finder App
 
 A simple and user-friendly web application to search books using the **Open Library API**.  
